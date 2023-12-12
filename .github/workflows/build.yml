@@ -22,7 +22,7 @@ jobs:
         with:
           containerfiles: |
             ./Containerfile
-          image: experiment
+          image: dev_container
           tags: latest ${{ github.sha }}
           oci: true
 
