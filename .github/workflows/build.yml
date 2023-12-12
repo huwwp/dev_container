@@ -1,4 +1,4 @@
-name: build-experiment
+name: dev-container
 on:
   push:
   schedule:
